@@ -3,15 +3,19 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+    "expo-env.d.ts",
+    "app/_layout.tsx",
+    "context/GlobalProvider.js",
+    "app/(tabs)/home.jsx",
+    "components/VideoCard.jsx",
+    "components/Trending.jsx",
+    "app/search/[query].jsx"
+, "components/SearchInput.jsx", "app/(tabs)/profile.jsx", "app/(tabs)/create.jsx", "app/(tabs)/bookmark.jsx"  ]
 }
